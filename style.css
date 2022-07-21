@@ -1,0 +1,213 @@
+/* 
+    Colors
+    Dark Green: #1C2A2C
+    Footer Dark: #24282B
+
+    font-family: 'Raleway', sans-serif;
+    300, 400, 500, 900 (normal and italic)
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Coding Styles to Delete */
+
+/* *{
+    padding: 0.5rem;
+    border: 1px solid rgb(200,200,200);
+
+}
+html,
+body {
+    border: none;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+    border: 1px solid rgb(200,200,200);
+}
+
+.bg-image {
+    background-color: rgb(245, 245, 149);
+} */
+
+/* End Coding Styles to Delete */
+
+/* Utility Classes */
+.padded     { padding: 5%;   }
+.padded-lg  { padding: 10%;  }
+.padded-1   { padding: 1rem; }
+.padded-2   { padding: 2rem; }
+.padded-3   { padding: 3rem; }
+.padded-4   { padding: 4rem; }
+.padded-5   { padding: 5rem; }
+
+.tall-50         { min-height: 50vh; }
+.tall-60         { min-height: 60vh; }
+.tall-70         { min-height: 70vh; }
+.tall-80         { min-height: 80vh; }
+.tall-90         { min-height: 90vh; }
+.tall-100        { min-height: 100vh; }
+
+.light-text { color: white;}
+
+.left   { text-align: left;     }
+.right  { text-align: right;    }
+.center { text-align: center;   }
+
+.bg-featured    { background-color: #1C2A2C }
+.bg-dark        { background-color: #24282B }
+
+/* Typography Styles */
+h1, h2, h3, h4, h5, h6 {
+   font-weight: 900;
+   text-transform: uppercase;
+   margin-bottom: 0.7rem;
+}
+
+p, li {
+    font-weight: 300;
+    color: #1C2A2C;
+    line-height: 1.5rem;
+}
+
+p:last-child, 
+li:last-child {
+    margin-bottom: 0;
+}
+
+a {
+    font-weight: 300;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #435355;
+}
+
+
+/* Background Images */
+.bg-image {
+    background-color: #24282B;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(/images/the-bunker-1.jpg);
+}
+
+.square { 
+    padding-bottom: 100%; 
+    min-height: 35vh;
+}
+
+.bg-roof {
+    background-image: url(/images/the-bunker-5.jpg);
+}
+.bg-bed {
+    background-image: url(/images/the-bunker-1.jpg);
+}
+.bg-hallway {
+    background-image: url(/images/the-bunker-3.jpg);
+}
+.bg-lobby {
+    background-image: url(/images/the-bunker-4.jpg);
+}
+.bg-lounge {
+    background-image: url(/images/the-bunker-2.jpg);
+}
+.bg-sheets {
+    background-image: url(/images/the-bunker-7.jpg);
+}
+.bg-map {
+    background-image: url(/images/the-bunker-6.png);
+}
+
+/* Background Position */
+.bg-pos-t { background-position: top;    }
+.bg-pos-b { background-position: bottom; }
+.bg-pos-l { background-position: left;   }
+.bg-pos-r { background-position: right;  }
+
+/* Universal Styles */
+/* body [class*="col-"] {
+    padding: 0;
+  } */
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    min-height: 55vh;
+    align-items: center;
+    /* background-position: 10% 50%; */
+}
+
+header h1 {
+    font-size: 7rem;
+    text-align: center;
+}
+
+.dark-intro {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.dark-intro-text {
+    padding-right: 0;
+}
+
+.banner h2 {
+    font-size: 3rem;
+}
+
+.banner h3 {
+    font-size: 2rem;
+    font-weight: 500;
+    padding-top: 0;
+}
+
+.socials-text {
+    padding-bottom: 0;
+    align-items: left;
+}
+
+.social-links {
+    padding-top: 0;
+}
+
+.map {
+    min-height: 45vh;
+}
+
+.map nav {
+    justify-content: left;
+    text-align: left;
+    padding: 4%;
+}
+
+.map a {
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+footer {
+    display: inline-block;
+}
+
+footer p {
+    margin-bottom: 0.2rem;
+}
+
+.logo {
+    font-size: 6rem;
+    line-height: 0.9;
+}
+
+.copyright {
+    font-size:0.5rem;
+}
