@@ -98,9 +98,8 @@ a:hover {
     background-image: url(/images/the-bunker-1.jpg);
 }
 
-.square { 
-    padding-bottom: 100%; 
-    min-height: 35vh;
+.bg-padded { 
+    padding-bottom: 30%; 
 }
 
 .bg-roof {
@@ -160,6 +159,10 @@ header h1 {
     padding-right: 0;
 }
 
+.centered-bed {
+    background-position: 50% 25%;
+}
+
 .banner h2 {
     font-size: 3rem;
 }
@@ -206,6 +209,7 @@ footer p {
 .logo {
     font-size: 6rem;
     line-height: 0.9;
+    margin-bottom: 0;
 }
 
 .copyright {
